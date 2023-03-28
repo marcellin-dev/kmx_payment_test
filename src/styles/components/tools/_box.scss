@@ -1,0 +1,27 @@
+.box{
+
+
+background-color: $white;
+
+  .myrow{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    border-radius: 10px;
+
+  }
+
+  .myrow:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.5s;
+    border: solid 2px green;
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    margin-top: 10px;
+
+  }
+}

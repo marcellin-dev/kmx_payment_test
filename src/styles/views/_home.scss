@@ -1,0 +1,21 @@
+
+.home{
+
+overflow: hidden;
+
+
+  .for-home{
+
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    //background-color: white;
+    transform: translateY(50%);
+    border-radius: 5px;
+  }
+
+  .scroll{
+    //overflow-y: scroll;
+    //height: 700px;
+  }
+}
